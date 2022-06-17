@@ -1,0 +1,10 @@
+---
+- name: Provision image
+  hosts: default
+  become: true
+  
+  tasks:
+    - name: Install tomcat
+      package:
+        name: 'tomcat'
+        state: present

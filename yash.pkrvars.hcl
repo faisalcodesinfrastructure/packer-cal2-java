@@ -1,0 +1,7 @@
+owner                  = "yash"
+aws_region             = "us-east-1"
+repo                   = "ykhemani/packer-cis-amazon-linux-2-level-2-java"
+base_image_bucket_name = "cis-amazon-linux-2"
+base_image_channel     = "demo"
+bucket_name            = "java-golden-image-cal2"
+bucket_description     = "This is the Java golden image."
