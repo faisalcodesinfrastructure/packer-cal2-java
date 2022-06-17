@@ -8,3 +8,8 @@
       package:
         name: 'tomcat'
         state: present
+    
+    - name: Install htop
+      package:
+        name: 'htop'
+        state: present
